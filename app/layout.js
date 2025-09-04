@@ -10,6 +10,12 @@ export default function RootLayout({ children }){
     const isProd = process.env.NODE_ENV === 'production'; 
     return ( 
         <html lang='en' suppressHydrationWarning>
+        <head>
+        <meta
+          name="google-adsense-account"
+          content="ca-pub-1234567890123456"
+        />
+      </head>
             <body>
                 <Header />
                 <main className='max-w-6xl mx-auto px-4 py-6 grid grid-cols-1 md:grid-cols-3 gap-6'>
