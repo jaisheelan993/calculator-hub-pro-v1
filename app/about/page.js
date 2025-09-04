@@ -1,0 +1,1 @@
+export default function Page(){ return (<div className='card'><h1 className='text-2xl font-bold'>About</h1><p className='text-gray-700 dark:text-gray-300'>Calculator Hub Pro v2</p></div>); }
