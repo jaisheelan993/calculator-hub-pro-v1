@@ -13,7 +13,7 @@ export default function RootLayout({ children }){
         <head>
         <meta
           name="google-adsense-account"
-          content="ca-pub-1234567890123456"
+          content="ca-pub-1497094213197738"
         />
       </head>
             <body>
