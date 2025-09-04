@@ -17,7 +17,8 @@ export default function RootLayout({ children }){
                     <aside className='md:col-span-1'></aside>
                 </main>
                 <Footer />
-                {isProd && <script async src={'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client='} crossOrigica-pub-1497094213197738n='anonymous'></script>}
+                {isProd && <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1497094213197738"
+     crossorigin="anonymous"></script>}
                 <Analytics />
                 <PWARegister />
             </body>
