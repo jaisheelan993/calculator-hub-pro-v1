@@ -1,2 +1,4 @@
 "use client";
-export default function ShareAndDownload({ title, text }){ const share = async ()=>{ if(navigator.share){ await navigator.share({ title, text, url: window.location.href }); } else { navigator.clipboard.writeText(window.location.href); alert('Link copied'); } }; const download = ()=>{ window.print(); }; return (<div className='flex gap-2'><button onClick={share} className='px-3 py-1 rounded border'>Share</button><button onClick={download} className='px-3 py-1 rounded border'>Download PDF</button></div>); }
+export default function ShareAndDownload({ title, text }){ 
+    const share = async ()=>{ if(navigator.share)
+        { await navigator.share({ title, text, url: window.location.href }); } else { navigator.clipboard.writeText(window.location.href); alert('Link copied'); } }; const download = ()=>{ window.print(); }; return (<div className='flex gap-2'><button onClick={share} className='px-3 py-1 rounded border'>Share</button><button onClick={download} className='px-3 py-1 rounded border'>Download PDF</button></div>); }

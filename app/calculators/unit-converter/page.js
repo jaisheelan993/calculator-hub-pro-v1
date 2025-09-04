@@ -1,6 +1,6 @@
 "use client";
-import ShareAndDownload from '../components/ShareAndDownload';
-import { useFavorites } from '../components/Favorites';
+import ShareAndDownload from '/components/ShareAndDownload';
+import { useFavorites } from '/components/Favorites';
 export default function Page(){ 
   const favHook = useFavorites();
   return (
