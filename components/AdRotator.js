@@ -18,7 +18,7 @@ export default function AdRotator({ ads = [], style, autoRotate = 0 }) {
   },[ads, autoRotate]);
   useEffect(()=>{ try{ if(selected?.type==='adsense' && typeof window !== 'undefined' && window.adsbygoogle){ (window.adsbygoogle = window.adsbygoogle || []).push({}); } }catch(e){ console.error('ads push error', e); } },[selected]);
   if(!selected) return null;
-  if(selected.type==='adsense'){ return (<ins className='adsbygoogle' style={style || {display:'block'}} data-ad-client='ca-pub-XXXXXXXXXXXXXXXX' data-ad-slot={selected.slot} data-ad-format='auto' data-full-width-responsive='true'></ins>); }
+  if(selected.type==='adsense'){ return (<ins className='adsbygoogle' style={style || {display:'block'}} data-ad-client='ca-pub-1497094213197738' data-ad-slot={selected.slot} data-ad-format='auto' data-full-width-responsive='true'></ins>); }
   if(selected.type==='image'){ return (<a href={selected.href||'#'} target='_blank' rel='noreferrer'><img src={selected.src} alt={selected.alt||'Ad'} style={{maxWidth:'100%', ...style}}/></a>); }
   if(selected.type==='script'){ return (<div dangerouslySetInnerHTML={{__html:selected.code}} />); }
   return null;
