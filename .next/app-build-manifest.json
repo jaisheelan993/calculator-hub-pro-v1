@@ -11,30 +11,55 @@
       "static/chunks/main-app.js",
       "static/chunks/app/page.js"
     ],
-    "/calculators/loan/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/calculators/loan/page.js"
-    ],
     "/calculators/bmi/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/calculators/bmi/page.js"
+    ],
+    "/calculators/loan/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/calculators/loan/page.js"
     ],
     "/calculators/age/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/calculators/age/page.js"
     ],
+    "/calculators/tip/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/calculators/tip/page.js"
+    ],
+    "/calculators/discount/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/calculators/discount/page.js"
+    ],
+    "/calculators/unit-converter/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/calculators/unit-converter/page.js"
+    ],
     "/calculators/percentage/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/calculators/percentage/page.js"
     ],
-    "/calculators/emi/page": [
+    "/calculators/simple-interest/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/calculators/emi/page.js"
+      "static/chunks/app/calculators/simple-interest/page.js"
+    ],
+    "/calculators/compound-interest/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/calculators/compound-interest/page.js"
+    ],
+    "/_not-found/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/_not-found/page.js"
     ]
   }
 }
