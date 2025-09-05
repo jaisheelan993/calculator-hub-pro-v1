@@ -1,8 +1,0 @@
-{
-  "/page": "app/page.js",
-  "/calculators/loan/page": "app/calculators/loan/page.js",
-  "/calculators/bmi/page": "app/calculators/bmi/page.js",
-  "/calculators/age/page": "app/calculators/age/page.js",
-  "/calculators/percentage/page": "app/calculators/percentage/page.js",
-  "/calculators/emi/page": "app/calculators/emi/page.js"
-}
