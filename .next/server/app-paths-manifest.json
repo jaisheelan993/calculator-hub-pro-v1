@@ -1,8 +1,5 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
   "/page": "app/page.js",
-  "/calculators/discount/page": "app/calculators/discount/page.js",
-  "/calculators/unit-converter/page": "app/calculators/unit-converter/page.js",
-  "/calculators/compound-interest/page": "app/calculators/compound-interest/page.js",
-  "/calculators/loan/page": "app/calculators/loan/page.js"
+  "/calculators/bmi/page": "app/calculators/bmi/page.js"
 }
