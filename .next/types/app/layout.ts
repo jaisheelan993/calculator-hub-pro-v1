@@ -1,4 +1,4 @@
-// File: D:\Website\calculator-hub-pro-v2\app\layout.js
+// File: D:\Website\calculator-hub-pro-v1\app\layout.js
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
