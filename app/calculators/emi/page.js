@@ -3,7 +3,7 @@ import ShareAndDownload from '/components/ShareAndDownload';
 import { useFavorites } from '/components/Favorites';
 import { useState } from 'react';
 
-import { EMICalculator } from './page';
+// import { EMICalculator } from './page'; // Removed, use local definition below
 
 export default function Page(){ 
   const favHook = useFavorites();
@@ -19,7 +19,7 @@ export default function Page(){
   );
 }
 
-export function EMICalculator() {
+function EMICalculator() {
   const [loan, setLoan] = useState(100000);
   const [rate, setRate] = useState(8);
   const [years, setYears] = useState(10);
