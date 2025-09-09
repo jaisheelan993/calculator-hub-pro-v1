@@ -1,3 +1,3 @@
 User-agent: *
-Disallow:
-Sitemap: /sitemap.xml
+Allow: /
+Sitemap: https://calculator-hub-pro-v1.vercel.app/sitemap.xml
