@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://calculator-hub-pro-v1.vercel.app/</loc>
+  </url>
+  <url>
+    <loc>https://calculator-hub-pro-v1.vercel.app/calculators/loan</loc>
+  </url>
+  <url>
+    <loc>https://calculator-hub-pro-v1.vercel.app/calculators/bmi</loc>
+  </url>
+  <!-- Add other calculators similarly -->
+</urlset>
