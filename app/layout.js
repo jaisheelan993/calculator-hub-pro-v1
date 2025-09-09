@@ -11,6 +11,8 @@ export default function RootLayout({ children }){
     return ( 
         <html lang='en' suppressHydrationWarning>
         <head>
+        <title>Calculator Hub Pro – Free Online Calculators</title>
+        <meta name="description" content="A suite of useful calculators: Loan, BMI, Age, EMI, Tip, Discount, Unit Converter, Percentage, Simple Interest, and Compound Interest." />
         <meta
           name="google-adsense-account"
           content="ca-pub-1497094213197738"
